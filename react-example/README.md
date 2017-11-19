@@ -2,8 +2,6 @@
 Example ZAF v2 apps using react, redux, vue and deku
 =====================
 
-![](https://raw.githubusercontent.com/StevenIseki/zaf-examples/master/screenshot.png)
-
 ## Run the app example e.g. react
 
 ```
