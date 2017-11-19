@@ -1,0 +1,76 @@
+/* main */
+
+.zaf-app hr {
+  background: #eee;
+  border-color: #eee;
+  margin: 2px 0;
+}
+.zaf-app h1 {
+  color: #444;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.zaf-app p {
+  color: #444;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+
+/* header */
+.zaf-app .header {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.zaf-app .header-image {
+  height: 40px;
+  width: 40px;
+  margin: 5px auto;
+}
+
+/* footer */
+.zaf-app .footer {
+  padding: 5px 0;
+}
+
+.zaf-app .footer svg {
+  color: #79a11d;
+  height: 14px;
+  width: 14px;
+  vertical-align: text-top;
+  margin: 0 2px;
+}
+
+.zaf-app .footer p {
+  color: #444;
+  text-align: center;
+}
+
+/* ticket */
+
+.zaf-app .ticket {
+  padding: 10px 5px;
+}
+.zaf-app .ticket .name {
+  display: flex;
+  padding: 8px 0;
+}
+
+.zaf-app .ticket .subject {
+  color: #333;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.zaf-app .ticket .user-image {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
