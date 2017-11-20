@@ -1,0 +1,17 @@
+{
+  "name": "zendesk test app",
+  "author": {
+    "name": "steven martin",
+    "email": "stevenisekimartin@gmail.com",
+    "url": "http://stevenisekimart.in"
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "location": {
+    "support": {
+      "ticket_sidebar": "assets/index.html"
+    }
+  },
+  "version": "1.0",
+  "frameworkVersion": "2.0"
+}

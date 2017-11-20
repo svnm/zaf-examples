@@ -8,7 +8,6 @@
     "server": "zat server --path=./dist",
     "dev": "NODE_ENV=dev npm run client | npm run server",
     "lint": "standard --fix 'src/**/*.js' 'test/**/*.js'",
-    "test": "tape test/index.js",
     "flow": "flow check"
   },
   "standard": {

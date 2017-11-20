@@ -2,12 +2,12 @@
 Example ZAF v2 apps using react, redux, vue and deku
 =====================
 
-## Run the app example e.g. preact
+## Run the app example e.g. deku
 
 ```
 gem install zendesk_apps_tools
 
-cd preact-example
+cd deku-example
 yarn install
 npm run dev
 ```
@@ -22,10 +22,9 @@ npm run dev
 
 - Check this [zendesk guide](https://help.zendesk.com/hc/en-us/articles/229137287#topic_egv_qv4_lw) for more info on getting started.
 
-## Running tests, lint and flow check
+## Running tests and lint
 
 ```
 yarn install
 npm run lint
-npm run flow
 ```
