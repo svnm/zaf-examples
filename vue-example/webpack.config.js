@@ -30,6 +30,11 @@ module.exports = {
       }
     ]
   },
+  resolve: {
+    alias: {
+      vue: 'vue/dist/vue.js'
+    }
+  },
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Zendesk app',

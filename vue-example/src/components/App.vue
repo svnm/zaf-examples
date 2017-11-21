@@ -1,15 +1,21 @@
-/** @jsx element */
-
-import header from './Header'
-import footer from './Footer'
-//import Ticket from './Ticket'
-
 <template>
-  <div class='zaf-app'>
-    <header name='Zendesk Test App' />
-    <footer />
+  <div id="app">
+    <heading></heading>
+    <ticket></ticket>
   </div>
 </template>
+
+<script>
+import Heading from './Heading.vue'
+import Ticket from './Ticket.vue'
+
+export default {
+  name: 'app',
+  components: {
+    Heading, Ticket
+  }
+}
+</script>
 
 <style>
 hr {
